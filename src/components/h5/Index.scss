@@ -1,0 +1,108 @@
+.elements{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    a{
+        display: block;
+        width:100%;
+        .single-img{//插入图片的样式
+            width:100%;
+
+        }
+    }
+    .up_down_del{//默认状态下的操作框
+        display:none;
+    }
+}
+.elements:focus{
+    outline: none;
+}
+.elements:hover{
+    cursor: pointer;
+}
+
+
+// 优惠券的样式
+
+//商品的样式
+    .goods-container{
+        width:200px;
+        position: relative;
+        display: block;
+        font-size: 12px;
+        .goods-bg{
+            display: block;
+            width: 100%;
+            img{
+                display: block;
+                border: none;
+                width: 100%;
+                margin:0 auto;
+            }
+        }
+        .goods-name{
+            display: block;
+            width: 100%;
+            line-height: 20px;
+            height: 40px;
+        }
+        .goods-price{
+            display: block;
+            width: 100%;
+            height:20px;
+            line-height: 20px;
+            color: #ff5500;
+        }
+    }
+
+    .show-pc{
+        background-image:url(../../../static/img/phone-bg.png);
+        background-repeat: no-repeat;
+        padding:14px 24px;
+        left: 50%;
+        margin-left: -165px;
+        position: absolute;
+        top: 50%;
+        margin-top: -362px;
+        width: 316px;
+    }
+    .show-pc .show-container{
+        background-color:#fff;
+        width:316px;
+        height: 700px;
+        padding:0;
+        border-radius:43px;
+        overflow: hidden;
+        position: relative;
+    }
+    .show-pc .show-container .box{
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .show-pc .show-container .box::-webkit-scrollbar  
+        {  
+            width: 0px;  
+            height: 16px;  
+            background-color: rgba(0,0,0,1);  
+        }  
+    .show-pc .firefox .box{
+        width:105%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .canvas-container{
+        position: absolute;
+        top:150px;
+        right: -140px;
+        width:140px;
+        height: 160px;
+        p{
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            color:#fff;
+        }
+    }

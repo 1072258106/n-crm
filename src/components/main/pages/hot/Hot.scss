@@ -1,0 +1,65 @@
+.hot{
+    height: 100%;
+    background: #fff;
+    .class{
+        padding:16px;
+        border-bottom:1px solid #ccc;
+        .title{
+            font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+            font-size: 18px;
+            color: #666;
+            font-weight: 700;
+        }
+        .btn{
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #d8dce5;
+            border-color: #d8dce5;
+            color: #5a5e66;
+            -webkit-appearance: none;
+            text-align: center;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: .1s;
+            font-weight: 500;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+            margin-left: 8px;
+        }
+        .choose-btn{
+            color: #fff;
+            background-color: #409eff;
+            border-color: #409eff
+        }
+    }
+    .hot-list{
+        padding: 16px;
+        .el-row{
+            margin-bottom: 16px;
+            .el-col{
+                //border: 1px solid #ccc;
+                box-shadow: 0 0 10px 1px #eaecf1;
+            }
+            .content{
+                padding: 8px;
+                min-height: 100px;
+            }
+            .type{
+                text-align: center;
+                height: 32px;
+                line-height: 32px;
+                font-size: 16px;
+                background: #409eff;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+//容器框
+.item-container{
+    background: #fff;
+    .container-title{
+        height: 46px;
+        line-height: 46px;
+        font-size: 18px;
+        color: #666;
+        font-weight: bold;
+        border-bottom: 1px solid #e4e4e4;
+        text-indent: 1.5em;
+    }
+}
+
+//文字按钮
+.btn-text{
+    color: #409eff;
+    &:hover{
+        color: #72b3f5;
+    }
+}
+
+//文本右对齐
+.text-right{
+    text-align: right;
+}

@@ -1,0 +1,71 @@
+.sidebar{
+    width:72px;
+    position: fixed;
+    right:0;
+    top:50%;
+    .item{
+        width: 72px;
+        height: 73px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        .icon{
+            font-size: 32px;
+            line-height: 50px;
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+    }
+    .item-qq{
+        background-color: #6da9de;
+        &:hover{
+            background-color:#4b9be3;
+        }
+    }
+    .item-weixin{
+        background-color: #78c340;
+        &:hover{
+            background-color:#55af11;
+        }
+        .weixin-hide{
+            position: absolute;
+            left: -160px;
+            top: 0;
+            width: 160px;
+            height: 160px;
+        }
+    }
+    .item-phone{
+        background-color: #fbb01f;
+        &:hover{
+            background-color:#ff811b;
+        }
+        .phone-hide{
+            background-color: #ff811b;
+            position: absolute;
+            width: 160px;
+            left: -160px;
+            top: 0px;
+            line-height: 73px;
+            color: #FFF;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .back_to_top{
+        background-color: #444;
+        .icon{
+            font-size: 32px;
+            line-height: 73px;
+            color: #fff;
+        }
+        &:hover{
+            background-color: #323030;
+        }
+    }
+}

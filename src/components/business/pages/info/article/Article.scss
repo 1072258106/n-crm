@@ -1,0 +1,33 @@
+.article-container{
+    position: relative;
+    box-shadow: 0 0 5px #ddd;
+    background: #fff;
+    padding: 2%;
+    .title{
+        font-size: 24px;
+    }
+    .details{
+        height: 18px;
+        margin: 10px 0 30px;
+        color: #9e9fa0;
+        font-size: 12px;
+        line-height: 18px;
+        &>span{
+            margin-right: 8px;
+        }
+        .icon{
+            font-size: 14px;
+        }
+    }
+    .content{
+        color: #787878;
+        margin-bottom: 20px;
+        padding: 0 9%;
+        &>p{
+            text-indent: 2em;
+            font-size: 16px;
+            line-height: 220%;
+            color:#787878;
+        }
+    }
+}

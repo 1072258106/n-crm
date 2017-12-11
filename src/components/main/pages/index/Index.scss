@@ -1,0 +1,152 @@
+.index{
+    .data-center{
+        span{
+            font-size: 14px;
+            margin-left:8px;
+            font-weight: normal;
+        }
+        .content{
+            height: 120px;
+            padding: 16px;
+            .el-row{
+                height: 120px;
+            }
+            .icon-box{
+                height: 100px;
+                text-align: center;
+                line-height: 100px;
+                .icon{
+                    font-size: 48px;
+                    color: #fff;
+                }
+                background: #409eff;
+                border-radius: 50%;
+                width: 100px;
+                margin: 0 auto;
+            }
+            .count-container{
+                text-align: left;
+                p{
+                    height: 30px;
+                    line-height: 30px;
+                    font-size: 16px;
+                    color: #333;
+                    text-align: center;
+                }
+                .success-count{
+                    font-size: 18px;
+                    color: #409eff;
+                }
+                .fail-count{
+                    color: #ccc;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .userinfo{
+        height:361px;
+        .content{
+            padding: 8px;
+            box-sizing: border-box;
+            li{
+                height: 24px;
+                line-height: 24px;
+                .left{
+                    float: left;
+                    margin-left: -32px;
+                }
+                .right{
+                    float: right;
+                    margin-right: 2em;
+                }
+            }
+            em{
+                font-style: normal;
+                display: inline-block;
+                width: 68px;
+                text-align: right;
+            }
+        }
+    }
+    .quick-enter{
+        font-size: 16px;
+        .content{
+            padding:16px 8px;
+            span{
+                display: block;
+                width: 62px;
+                height: 62px;
+                margin: 0 auto;
+                background: #49a9ee;
+                border-radius: 4px;
+                line-height: 62px;
+                text-align: center;
+                .icon{
+                    font-size: 40px;
+                    color:#fff;
+                }
+            }
+            p{
+                text-align: center;
+                color:#666;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .gonggao{//公告
+        height: 100%;
+        padding-bottom: 16px;
+        .content{
+            padding: 8px;
+            height: 120px;
+            box-sizing: border-box;
+            li{
+                height: 24px;
+                line-height: 24px;
+                .left{
+                    float: left;
+                }
+                .right{
+                    float: right;
+                    color:#989898;
+                }
+            }
+        }
+    }
+    
+    .hot-message{//热门短信
+        .more{
+            float: right;
+            font-size: 14px;
+            font-weight: normal;
+            margin-right: 16px;
+        }
+        .content{
+            padding: 16px;
+            .el-row{
+                margin-bottom:16px;
+            }
+            .el-col{
+                //border: 1px solid #ccc;
+                padding: 16px;
+                .box{
+                    box-shadow: 0 0 10px 1px #eaecf1;
+                }
+            }
+            .message-content{
+                padding: 8px;
+                min-height: 100px;
+            }
+            p{
+                text-align: center;
+                height: 32px;
+                line-height: 32px;
+                font-size: 16px;
+                background: #409eff;
+                color: #fff;
+            }
+        }
+    }
+}

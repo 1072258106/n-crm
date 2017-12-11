@@ -1,0 +1,86 @@
+<template>
+    <div class="index">
+        <!-- 第一行 -->
+        <el-row>
+            <!-- 数据中心 -->
+            <el-col class="item-container data-center" :span="18">
+                <div class="container-title">
+                        数据中心
+                        <span>持续更新中，短信发送后72小时内状态更新完成</span>
+                </div>
+                <div class="content">
+                    
+                </div>
+            </el-col>
+            <!-- 用户信息 -->
+            <el-col :span="5" class="item-container userinfo" :offset="1">
+                <div class="container-title">账户信息</div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <div class="left">
+                                昵称：<span>{{userInfo.nickName}}</span>
+                            </div>
+                            <a href="javascript:;" class="right btn-text">修改</a>
+                        </li>
+                        <li>
+                            <div class="left">
+                                手机：<span>{{userInfo.phone}}</span>
+                            </div>
+                            <a href="javascript:;" class="right btn-text">修改</a>
+                        </li>
+                        <li>
+                            <div class="left">
+                                QQ：<span>{{userInfo.qq}}</span>
+                            </div>
+                            <a href="javascript:;" class="right btn-text">修改</a>
+                        </li>
+                        <li>
+                            <div class="left">
+                                短信余额：<span>{{userInfo.message}}条</span>
+                            </div>
+                            <a href="javascript:;" class="right btn-text">充值</a>
+                        </li>
+                    </ul>
+                </div>
+            </el-col>
+        </el-row>
+
+        <!-- 第二行 -->
+        <el-row style="margin-top:24px;">
+            <!-- 快捷入口 -->
+            <el-col :span="18" class="item-container quick-enter">
+                <div class="container-title">快捷入口 </div>
+                <el-row class="content" type="flex" justify="space-around">
+                    <el-col :span="3" v-for="(item ,index) in pathList" :key="index">
+                        <router-link :to="item.path">
+                            <span :style="'background:'+item.background+';'">
+                                <i :class="'icon iconfont '+item.icon"></i> 
+                            </span>
+                            <p>{{item.text}}</p>
+                        </router-link>
+                    </el-col>
+                </el-row>
+            </el-col>
+            <!-- 公告 -->
+            <el-col :span="5" :offset="1" class="item-container gonggao">
+                <div class="container-title">系统公告</div>
+                <div class="content">
+                    <ul>
+                        <li v-for="(item,index) in anList" :key="index">
+                            <a href="javascript:;" class="btn-text left">{{item.title}}</a>
+                            <span class="right">{{item.time}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </el-col>
+        </el-row>
+    </div>
+</template>
+
+<script src="./Index.js">
+</script>
+
+<style lang="scss" scoped>
+@import './Index.scss';
+</style>

@@ -1,0 +1,27 @@
+import axios from 'axios'
+
+axios.defaults.baseURL = 'http://test.niubaifa.com';
+
+axios.defaults.timeout = 5000//请求超时时间
+
+// axios.defaults.headers['Access-Token'] = 'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMsInRpbWUiOjE1MTEyNTQ5Nzd9.xE9l0IVkAgxn124w7AZ8Tc1Hjo-h9q07pw4PEc0TPx4';
+// axios.defaults.headers['Content-Type'] = 'application/json';
+// axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+
+
+axios.interceptors.request.use(
+    
+    config => {
+        if(config.url == 'http://api.iqincheng.com/tools/page' || config.url == 'http://api.iqincheng.com/system/area_list') {
+            config.headers['Access-Token'] = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaG9wX2lkIjo2OTkxOTc0Nywic2Vzc2lvbl9rZXkiOiI2MjAxZTAyZTE0Wlo4ZmNmY2UxOTQ4MTQyNDAwOTMwNjk0YzVmOGNiZWVjNzRlZjc4NzM5Nzk2MyJ9.nfo-Hw--I6OzBejrggz_yzZ8W9iZRX6oMAWI0KiJiBg';
+        }
+        config.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+        return config;
+    },
+    err => {
+        return Promise.reject(err);
+    }
+);
+
+
+export default axios;

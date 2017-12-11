@@ -1,0 +1,33 @@
+.nav{
+    overflow: hidden;
+    z-index: 111;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top:64px;
+    background-color: #2a2d32;
+    // transition: all .5s;
+    .switch-tab{
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+        color: #fff;
+        cursor: pointer;
+        background-color: #3a414d;
+        // transition: all .5s;
+    }
+    .collapse-tab{
+        width: 64px;
+    }
+    .icon{
+        vertical-align: middle;
+        margin-right: 5px;
+        width: 24px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.nav-collapse{
+    overflow: visible;
+}

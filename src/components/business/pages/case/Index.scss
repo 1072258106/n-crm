@@ -1,0 +1,36 @@
+.case-container{
+    width:80%;
+    padding-top:32px;
+    margin: 0 auto;
+    .case-main{
+        background: #fff;
+        box-shadow: 0 0 5px #ddd;
+        padding: 16px;
+        padding-bottom:56px;
+        .case-list{
+            padding: 16px;
+            .case-item{
+                margin-bottom: 16px;
+                .img-box{
+                    height: 150px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center center;
+                    width: 220px;
+                    margin: 0 auto;
+                }
+                text-align: center;
+                cursor: pointer;
+                p{
+                    color: #333;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    &:hover{
+                        color:#009fff;
+                    }
+                }
+            }
+        }
+    }
+}

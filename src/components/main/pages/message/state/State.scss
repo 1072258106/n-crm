@@ -1,0 +1,94 @@
+.info-container{
+    .info-time{
+        float: right;
+        text-align: right;
+        line-height: 47px;
+        font-size: 14px;
+        font-weight: normal;
+        span{
+            margin-right:8px;
+        }
+    }
+    .message-content{
+        height: 67px;
+        line-height: 67px;
+        text-indent: 2em;
+        border-bottom: 1px solid #e4e4e4;
+        color: #666;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .pro-total {
+        color: #666;
+        text-align: center;
+        overflow: hidden;
+        p {
+          font-size: 14px;
+          padding-top: 17px;
+          margin-bottom: 7px;
+          img {
+            vertical-align: middle;
+            margin-left: 5px;
+          }
+            span{
+                font-size: 14px;
+                .icon{
+                    font-size: 14px;
+                    color: #2db7f5;
+                }
+            }
+        }
+        span {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .pro-each {
+          height: 73px;
+          border-right: 1px solid #e4e4e4;
+          position: relative;
+          padding-bottom: 8px;
+        }
+        .count-span-red{
+            color: #FF4949;
+        }
+        .count-span-green{
+            color: green;
+        }
+        .count-span-orange{
+            color: #dea726;
+        }
+        .count-span-blue{
+            color: #2db7f5;
+        }
+    }
+}
+
+//搜索框
+.seach-bg {
+    margin-top: 24px;
+    padding: 16px;
+    color: #666;
+    background-color: #fff;
+    overflow: auto;
+    .search_item > label {
+        padding: 8px 16px 8px 0px;
+        float: left;
+    }
+    .search_item > label + div {
+        margin-left: 86px;
+    }
+    .line{
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+//表格
+.table-container{
+    margin-top: 24px;
+    padding: 16px;
+    background: #fff;
+    .el-table{
+        font-size: 12px;
+    }
+}

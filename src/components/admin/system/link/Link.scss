@@ -1,0 +1,19 @@
+.link{
+    .input-box{
+        padding-left: 70px;
+        position: relative;
+        margin: 0 auto 16px;
+        line-height: 40px;
+        box-sizing: border-box;
+        .label{
+            position: absolute;
+            left:-55px;
+            top: 0;
+            height: 40px;
+            width: 110px;
+            text-align: right;
+            line-height: 40px;
+            padding-right:5px;
+        }
+    }
+}

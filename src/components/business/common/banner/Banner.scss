@@ -1,0 +1,25 @@
+
+.small-banner{
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .title{
+        width: 310px;
+        margin: 0 auto;
+        h4{
+            font-size: 40px;
+            line-height: 60px;
+            border-bottom: 2px solid #fff;
+            padding: 0 0 5px;
+            margin-bottom: 5px;
+            display: block;
+            letter-spacing: 10px;
+        }
+    }
+}

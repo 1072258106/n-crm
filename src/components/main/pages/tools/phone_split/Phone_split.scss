@@ -1,0 +1,53 @@
+.box {
+    background-color: #ffffff;
+    .stepContent {
+        border-bottom: 1px solid #ccc;
+        padding: 20px;
+        border-right: none;
+        .help-text {
+            font-size: 14px;
+            color: #ccc;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    
+    // 勾选框对齐
+    label.el-checkbox {
+        width:150px;
+        & + .el-checkbox {
+            margin-left: 0px !important;
+        }
+    }
+}
+
+.tz-alert.primary {
+    border: 1px solid #d4f0fc;
+    background-color: #e6f3fc;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+}
+.margin-bottom-16{
+    margin-bottom: 16px;
+}
+.sub-title {
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 1;
+    padding: 8px 16px 8px 0;
+    box-sizing: border-box;
+    width: 86px;
+}
+.sub-body {
+    line-height: 36px;
+    position: relative;
+    font-size: 14px;
+    margin-left: 86px;
+    padding: 1px 0px;
+}

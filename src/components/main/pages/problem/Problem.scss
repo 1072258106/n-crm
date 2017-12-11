@@ -1,0 +1,58 @@
+.problem{
+    .item-container{
+        margin-bottom:24px;
+    }
+    .content{
+        padding: 16px;
+        .content-title{
+            font-size: 18px;
+            color: #333;
+            height: 30px;
+            line-height: 30px;
+        }
+        .content-content{
+            margin: 8px 0;
+            position: relative;
+            padding: 8px 32px;
+            font-size: 14px;
+            p{
+                line-height: 24px;
+            }
+            .sidebar{
+                position: absolute;
+                height: 100%;
+                width: 8px;
+                top:0;
+                left: 0;
+            }
+        }
+    }
+    .red{
+        color: #d9534f;
+        background: #fdf7f7;
+        .sidebar{
+            background: #d9534f;
+        }
+    }
+    .ban{
+        color: #999;
+        background: #fcfcfc;
+        .sidebar{
+            background: #999;
+        }
+    }
+    .example{
+        color: #5bc0de;
+        background: #f4f8fa;
+        .sidebar{
+            background: #5bc0de;
+        }
+    }
+    .gray{
+        color: #999;
+        background: #fcfcfc;
+        .sidebar{
+            background: #999;
+        }
+    }
+}

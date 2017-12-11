@@ -1,0 +1,57 @@
+.list-container{
+    position: relative;
+    box-shadow: 0 0 5px #ddd;
+    background: #fff;
+    padding: 2%;
+    li{
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        padding: 0 0 20px 220px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        height: 200px;
+        img{
+            position: absolute;
+            left:0;
+            top:0;
+            width: 200px;
+            height: 200px;
+        }
+        h4{
+            font-size: 24px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        .details{
+            height: 18px;
+            margin: 10px 0 30px;
+            color: #9e9fa0;
+            font-size: 12px;
+            line-height: 18px;
+            &>span{
+                margin-right: 8px;
+            }
+            .icon{
+                font-size: 14px;
+            }
+        }
+        .content{
+            color: #787878;
+            margin-bottom: 24px;
+        }
+        .more{
+            display: inline-block;
+            background: #3399ff;
+            padding: 5px 20px;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    .page{//分页器的样式
+        position: absolute;
+        right: 0;
+        bottom:0;
+    }
+}

@@ -1,0 +1,58 @@
+.detail{
+    background:#efefef;
+    .detail-container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .title{
+        font-size: 18px;
+        line-height: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    a{
+        width: 38%;
+        float: left;
+        display: block;
+        line-height: 180%;
+        color: #666;
+        font-size: 12px;
+        &:hover {
+            color:#009fff;
+        }
+    }
+    span{
+        display: block;
+        line-height: 180%;
+        color: #666;
+        font-size: 12px;
+    }
+}
+.friend{
+    background:#303030;
+    .friend-container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+        .title{
+            font-size: 16px;
+            color: #ccc;
+            margin-bottom: 5px;
+        }
+        a{
+            display: block;
+            margin-right: 10px;
+            float: left;
+            color: #777;
+            line-height: 180%;
+            font-size: 12px;
+        }
+    }
+    .copyright{
+        text-align: center;
+        padding-bottom: 10px;
+        color: #ccc;
+        font-size: 12px;
+    }
+}

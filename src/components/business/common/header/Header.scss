@@ -1,0 +1,63 @@
+.topbar {
+    text-align: right;
+    background-color:#409eff;
+    height: 40px;
+    line-height: 40px;
+    .top-item{
+        color:#fff;
+        margin-right:8px;
+    }
+    a{
+        text-decoration: none;
+    }
+} 
+.logo-bar{
+    width:92%;
+    height: 78px;
+    line-height: 78px;
+    margin:0 auto;
+    .logo{
+        float: left;
+        height: 100%;
+        img{
+            float: left;
+            height: 100%;
+            width:222px;
+            cursor: pointer;
+        }
+        span{
+            float: left;
+            height: 100%;
+            color:#636363;
+            font-size: 14px;
+        }
+    }
+    .nav{
+        float: right;
+        height: 60px;
+        padding-top:9px;
+        margin-right:24px;
+    }
+    .btn{
+        float: right;
+        margin-top:25px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .logo-bar {
+        width: 100%;
+        .btn{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 1080px) {
+    .logo-bar {
+        .logo{
+            span{
+                display:none;
+            }
+        }
+    }
+}

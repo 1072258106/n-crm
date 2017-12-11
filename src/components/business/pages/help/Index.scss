@@ -1,0 +1,42 @@
+.help{
+    background: #f3f3f3;
+    padding-bottom: 32px;
+}
+.help-container{
+    margin: 32px auto 0;
+    width:96%;
+    padding:2%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 0 5px #ddd;
+    .title{
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    li{
+        border-bottom: 1px dashed #ddd;
+        padding: 0 10px 15px;
+        margin-bottom: 15px;
+        line-height: 180%;
+        .question{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            .icon{
+                font-size: 18px;
+                font-weight: normal;
+                margin:0 6px;
+            }
+        }
+        .answer{
+            .icon{
+                font-size: 14px;
+                margin:0 9px;
+            }
+        }
+        .icon{
+            color:#1296db;
+        }
+    }
+}
